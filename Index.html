@@ -15,21 +15,101 @@
   </head>
   <body>
   <div id="navbar" class="container-fluid"> <!-- Start navbar container -->
-  s=
-  
+  <nav class="navbar navbar-expand-lg navbar-light info-color">
+    <a class="navbar-brand" href="index.html"><img class="logo" src="logo.png"/> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+               <a class="nav-link waves-effect waves-light" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="new.html">New Games</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="specials.html">Specials</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consoles</a>
+                <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item waves-effect waves-light" href="xbox.html">Xbox</a>
+                    <a class="dropdown-item waves-effect waves-light" href="ps4.html">PS4</a>
+                    <a class="dropdown-item waves-effect waves-light" href="nintendo.html">Nintendo</a>
+					 <a class="dropdown-item waves-effect waves-light" href="pc.html">PC</a>
+                </div>
+            </li>
+						 <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+        <form class="form-inline">
+            <div class="md-form my-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+        </form>
+    </div>
+</nav>
 </div><!-- End navbar container -->
  <div id="slider" class="container-fluid"> <!-- Start slider container -->
- 
-
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slide1.png" class="d-block w-100" alt="This is a ">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slide2.png" class="d-block w-100" alt="This is a">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slide3.png" class="d-block w-100" alt="This is a">
+    </div>
+	 <div class="carousel-item">
+      <img src="images/slide4.png" class="d-block w-100" alt="This is a">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 </div><!-- End slider container -->
   <div id="products" class="container-fluid"> <!-- Start products container -->
  
+ <h1>place holder text</h1>
 
 </div><!-- End products container -->
   <div id="footer" class="container-fluid"> <!-- Start footer container -->
- 
+ <div id="upperfooter" class="container-fluid"> <!-- Start top footer section container -->
+ <div class="row">
+ <div class="col-sm-12 col-md-8">
+ <h1>Phone number</h1>
+  <h1>Email adress</h1>
+  </div>
+  <div class="col-sm-12 col-md-8"> <!-- Start google map container -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.920940955397!2d150.965076015807!3d-33.84014942500497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bd443d72a3fb%3A0x71df8c77691afdae!2sMerrylands+High+School!5e0!3m2!1sen!2sau!4v1564443845677!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <!-- End google map container -->
+ </div>
+</div><!-- End top footer section container -->
 
+</div><!-- End top footer container -->
+
+<div id="lowerfooter" class="container-fluid"> <!-- Start bottom footer container -->
+
+ <h1>Phone number</h1>
+  <h1>Email adress</h1>
 </div><!-- End footer container -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
