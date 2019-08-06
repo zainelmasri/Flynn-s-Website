@@ -17,6 +17,7 @@ h1 {
 
 img.logo {width:250px}
 
-#footer {background-color:darkblue;color:#fff}
+#footer {background-color:blue;color:#fff}
 
 #lowerfooter {background-color:darkblue;color:#fff}
+#lowerfooter i {font-size:70px;color:#fff; margin:25px 15px 8px 3px}
