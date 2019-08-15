@@ -1,6 +1,6 @@
 body {
      font-family: 'Roboto', sans-serif;
-	 font-weight: 300;
+	 font-weight: 500;
 	 color:black;
 }
 
@@ -11,13 +11,20 @@ h3,
 h2,
 h1 {
      font-family: 'Oswald', sans-serif;
-	 font-weight: 900;
+	 font-weight: 650;
 	 
 }
 
 img.logo {width:250px}
 
+#navbar {background-color:;color:#fff}
+
 #footer {background-color:blue;color:#fff}
 
 #lowerfooter {background-color:darkblue;color:#fff}
 #lowerfooter i {font-size:70px;color:#fff; margin:25px 15px 8px 3px}
+
+
+.memberBenefits i {font-size:120px;color:#fff;}
+.memberBenefits p {font-size:24px;color:#fff;margin-top:12px}
+.mBBox {background-color:darkblue;padding:15px; border-radius:8px}
