@@ -29,3 +29,8 @@ img.logo {width:250px}
 .memberBenefits i {font-size:120px;color:#fff;}
 .memberBenefits p {font-size:24px;color:#fff;margin-top:12px}
 .mBBox {background-color:darkblue;padding:15px; border-radius:8px}
+
+.pBo{border:#fff 1px solid; border-radius:8px;margin:8px}
+.pBo img {z-index:-1;border-radius:8px}
+.pBo button {z-index:2;position:absolute;right:50%;transform: translate(50%,50%);padding:8px;bottom:50%;border-radius:8px;background-color:green;border:2px blue solid;color:blue}
+.pBo button:hover {background-color:blue;border:2px green solid;color:green}
