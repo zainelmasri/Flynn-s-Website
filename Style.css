@@ -19,16 +19,16 @@ img.logo {width:250px}
 
 #navbar {background-color:;color:#fff}
 
-#footer {background-color:blue;color:#fff}
+#footer {background-color:#091D4D ;color:#fff}
 
-#lowerfooter {background-color:darkblue;color:#fff}
-#lowerfooter i {font-size:70px;color:#fff; margin:5px 10px 5px 2px}
+#lowerfooter {background-color:lightblue ;color:#fff}
+#lowerfooter i {font-size:70px;color:#091D4D; margin:5px 10px 5px 2px}
 
 
 
 .memberBenefits i {font-size:120px;color:#fff;}
 .memberBenefits p {font-size:24px;color:#fff;margin-top:12px}
-.mBBox {background-color:darkblue;padding:15px; border-radius:8px}
+.mBBox {background-color:#091D4D;padding:15px; border-radius:8px}
 
 .pBo{border:#fff 1px solid; border-radius:8px;margin:8px}
 .pBo img {z-index:-1;border-radius:8px}
